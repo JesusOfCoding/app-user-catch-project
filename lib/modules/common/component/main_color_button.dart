@@ -18,7 +18,6 @@ class _MainColorButtonState extends State<MainColorButton> {
   @override
   Widget build(BuildContext context) {
 
-
     return SizedBox(
       width: MediaQuery.sizeOf(context).width,
       child:

@@ -22,8 +22,8 @@ class Colours {
   static const Color app_sub_black= Color(0xFF000000);
   static const Color dark_app_sub_black= Color(0xFFF3F3F3);
 
-  static const Color app_sub_grey= Color(0xFF8C8C8C);
-  static const Color dark_app_sub_grey= Color(0xFFB2B2B2);
+  static const Color app_sub_grey= Color(0xFFC0C0C0);
+  static const Color dark_app_sub_grey= Color(0xFFCBCBCB);
 
   static const Color app_sub_darkgrey= Color(0xFF6C6C6C);
   static const Color dark_app_sub_darkgrey= Color(0xFF8C8C8C);

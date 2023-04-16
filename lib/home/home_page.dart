@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:side/modules/common/component/disabled_box.dart';
 import 'package:side/modules/common/component/main_color_button.dart';
 
 class HomePage extends StatelessWidget {
@@ -7,9 +8,14 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: MainColorButton(title: "test1", buttonOnpressed: (){
-        Navigator.pushNamed(context, "/subpage");
-      },)
+      body: Column(
+        children: [
+          MainColorButton(title: "test1", buttonOnpressed: (){
+            Navigator.pushNamed(context, "/subpage");
+          },),
+          DisabledBox(),
+        ],
+      )
     );
   }
 }
