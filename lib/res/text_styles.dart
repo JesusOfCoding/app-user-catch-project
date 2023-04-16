@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:side/res/dimens.dart';
-import 'package:side/res/colors.dart';
+import 'package:side/res/colours.dart';
 
 class TextStyles{
  static const String fontName = 'NanumGothic';

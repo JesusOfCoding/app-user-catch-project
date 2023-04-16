@@ -79,11 +79,11 @@ flutter:
       fonts:
         - asset: assets/font/NanumGothicLight.ttf
           weight: 300
-        - asset: assets/fonts/NanumGothic.ttf
+        - asset: assets/font/NanumGothic.ttf
           weight: 400
-        - asset: assets/fonts/NanumGothicBold.ttf
+        - asset: assets/font/NanumGothicBold.ttf
           weight: 700
-        - asset: assets/fonts/NanumGothicExtraBold.ttf
+        - asset: assets/font/NanumGothicExtraBold.ttf
           weight: 800
 
 
